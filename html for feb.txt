@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+
+</style>
+
+<body>
+<h1>Registration Form</h1>
+
+<form>
+    <label form="Last">Butang sa imong ngalan dong! </label><br>
+    <br>
+    <label form="Firstname">First Name:</label><br>
+    <input type="Text"id="Firstname" name="Firstname" required>
+    <br>
+    <label form="Middle">Middle Initial: </label> <br>
+    <input type="Text"id="Middle" name="Middle" required>
+    <br>
+    <label form="Last">Last Name: </label><br>
+    <input type="text"id="Last" name="Last" required>
+    <br><br>
+    <label form="Password">Password </label><br>
+    <input type="password"id="Password" name="Password" required>
+    
+    <br><br>
+    <label for="datemin">Enter a date: </label>
+    <input type="date" id="datemin" name="datemin" min="2025-02-24" required><br><br>
+    <label for="quantity">Quantity (between 1 and 10):</label><br><br>
+    <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+    <br><br>
+
+    <label>Pilii imong sakyanan</label>
+    
+
+    <select required>
+        <option value="Male" required>Ferrari</option>
+        <option value="Female">Toyota</option>
+        <option value="Bayot">Sikad</option><br>
+        <br>
+
+    </select>
+    
+    <br><br>
+    <input type="radio" form="Lalake" name="Male"> Male
+    <input type="radio" form="Lalake" name="Male"> Female
+
+    <br><br>
+
+    <label form="files">Select a file </label><br>
+    <input type="file"id="files" name="files" required>
+
+    <br><br>
+    <label form="Sigma">Are you a sigma boy?
+    <input type="checkbox"id="Sigma" name="Sigma" required>
+
+    <br><br>
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear?">
+    <br><br>
+    <textarea id="textbox" name="textbox" rows="2" cols="60">
+        Bantay kalang dili nimo bayaran ang imong utang
+        </textarea>
+    <br>
+    <input type="color" value="#FF00FF">
+    <br>
+
+    <br>
+    <input type="button" onclick="alert('Hello! Your computer has a virus.. Please restart your computer now!')" value="Show me!">
+</form>
+
+    
+</body>
+</html>
+
+
+
+---------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+
+</style>
+
+<body>
+<h1>Registration Form</h1>
+
+<form>
+    <br>
+    <label form="Firstname">First Name:
+    <input type="Text"id="Firstname" name="Firstname" required>
+    <br><br>
+    <label form="Middle">Middle Initial: 
+    <input type="Text"id="Middle" name="Middle" required>
+    <br><br>
+    <label form="Last">Last Name: 
+    <input type="text"id="Last" name="Last" required>
+    <br><br>
+    <label form="Gmail">Gmail: 
+    <input type="Text"id="Gmail" name="Gmail" required>
+    <br><br>
+    <label form="Password">Password:
+    <input type="password"id="Password" name="Password" required>
+    <br><br>
+    <label form="Password">Confirm Password:
+    <input type="password"id="Password" name="Password" required>
+    <br><br>
+     
+    <br><br>
+    <label for="datemin">Enter a date: </label>
+    <input type="date" id="datemin" name="datemin" min="2025-02-24" required><br><br>
+    <label for="quantity">Quantity (between 1 and 10):</label><br><br>
+    <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+    <br><br>
+
+    <label>Pilii imong sakyanan</label>
+    
+
+    <select required>
+        <option value="Male" required>Ferrari</option>
+        <option value="Female">Toyota</option>
+        <option value="Bayot">Sikad</option><br>
+        <br>
+
+    </select>
+    
+    <br><br>
+    <label for="quantity">Select your gender:</label><br><br>
+    <input type="radio" form="Lalake" name="Male"> Male
+    <input type="radio" form="Lalake" name="Male"> Female
+
+    <br><br>
+    <label form="files">Select a file </label><br>
+    <input type="file"id="files" name="files" required>
+
+    <br><br>
+    <label form="Sigma">Are you a sigma boy?
+    <input type="checkbox"id="Sigma" name="Sigma" required>
+
+    <br><br>
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear?">
+    <br><br>
+    <textarea id="textbox" name="textbox" rows="2" cols="60">
+        Bantay kalang dili nimo bayaran ang imong utang
+        </textarea>
+    <br>
+    <input type="color" value="#FF00FF">
+    <br>
+
+    <br>
+    <input type="button" onclick="alert('Hello! Your computer has a virus.. Please restart your computer now!')" value="Show me!">
+</form>
+
+    
+</body>
+</html>
+
+-----------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+
+</style>
+
+<body>
+<h1>Registration Form</h1>
+
+<form>
+    <br>
+    <label form="Firstname">First Name:
+    <input type="Text"id="Firstname" name="Firstname" required>
+    <br><br>
+    <label form="Middle">Middle Initial: 
+    <input type="Text"id="Middle" name="Middle" required>
+    <br><br>
+    <label form="Last">Last Name: 
+    <input type="text"id="Last" name="Last" required>
+    <br><br>
+    <label form="Gmail">Gmail: 
+    <input type="email"id="Gmail" name="Gmail" required>
+    <br><br>
+    <label form="Password">Password:
+    <input type="password"id="Password" name="Password" required>
+    <br><br>
+    <label form="Password">Confirm Password:
+    <input type="password"id="Password" name="Password" required>
+    <br><br>
+
+    <label>Gender:</label>
+
+    <select required>
+        <option value="Male" required>Male</option>
+        <option value="Female">Female</option>
+        <option value="Bayot">Bayot</option><br>
+        <br>
+
+    </select>
+     
+    <label for="datemin">Enter a date: </label>
+    <input type="date" id="datemin" name="datemin" min="2025-02-24" required><br><br>
+
+
+    <label form="Phone">Phone Number:
+    <input type="text"id="Password" name="Password" required>
+    <br><br>
+
+    <label form="Phone">Address <br>
+    <textarea id="textbox" name="textbox" rows="10" cols="60">
+    
+    </textarea>
+    <br>
+
+    <br>
+    <label form="City">City:
+    <input type="Text"id="City" name="City" required>
+    <br><br>
+    <label form="State">State: 
+    <input type="Text"id="State" name="State" required>
+    <br><br>
+    <label form="Zip Code">Zip Code: 
+    <input type="text"id="Zip Code" name="Zip Code" required>
+    <br><br>
+    <label form="Country">Country: 
+    <input type="text"id="Country" name="Country" required>
+    <br><br>
+    <label form="Occu">Occupation:
+    <input type="text"id="Occu" name="Occu" required>
+    <br><br>
+
+
+    <label for="quantity">Martial Status</label><br><br>
+    <input type="radio" form="Lalake" name="Male"> Single
+    <input type="radio" form="Lalake" name="Male"> Married
+
+    <br><br>
+    <label form="Sigma">Interests:
+        <br>
+    <label form="Sports">Sports
+    <input type="checkbox"id="Sports" name="Sports" required>
+    <label form="Sports">Music
+    <input type="checkbox"id="Sports" name="Sports" required>
+    <label form="Sports">Reading
+    <input type="checkbox"id="Sports" name="Sports" required>
+    <label form="Sports">Traveling
+    <input type="checkbox"id="Sports" name="Sports" required>
+
+    <br><br>
+    <input type="checkbox"id="Sports" name="Sports" required>
+    <label form="Sigma">I agree to the terms and conditions.
+
+
+    <br><br>
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+    <br><br>
+</form>
+
+    
+</body>
+</html>
+
+------------------------------- Final Reg Form for Html -----------------------------------------------------------

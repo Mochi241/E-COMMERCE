@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>broski</title>
+</head>
+<body>
+    <div class="w3-contaner w3-pink w3-card-4 w3-text-white w3-text w3-bold w3-container w3-leftbar w3-panel w3-serif w3-table">
+        <p>Bababoi</p>
+        <p>lololol </p>
+        <p>bruh</p>
+    </div>
+    <div class="w3-responsive">
+        <table class="w3-table w3-bordered w3-striped w3-table-all">
+            <tr class="w3-black">
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+            </table>
+    </div>
+    
+</body>
+</html>

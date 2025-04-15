@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <style>
+ 
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('ecomer.jpg') no-repeat center center fixed;
+            background-size: cover;
+            filter: blur(5px); 
+            z-index: -1;
+        }
+
+        
+
+      
+        .w3-bar {
+            padding: 12px 20px;
+        }
+
+        .w3-bar-item {
+            margin-right: 0.5em;
+            position: relative;
+            text-decoration: none;
+        }
+
+       
+        .w3-bar-item::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: purple;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+
+        .w3-bar-item:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+
+        .container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 5%;
+        }
+
+        .content-container {
+            max-width: 400px;
+        }
+
+        .content-container h2, 
+        .content-container h1 {
+            color: white;
+            margin: 5px 0;
+        }
+
+    
+        .shop-now {
+            display: inline-block;
+            text-decoration: none;
+            padding: 12px 24px;
+            border: 2px solid white;
+            color: white;
+            font-weight: bold;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .shop-now:hover {
+            background: white;
+            color: black;
+        }
+
+   
+        .footer {
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            width: 100%;
+        }
+
+        .footer h2 {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .footer p {
+            font-size: 12px;
+            margin: 5px 0;
+        }
+
+        .headz {
+         font-size: 60px; 
+         font-weight: bold;
+         color: white;
+         margin: 5px 0;
+}
+
+    </style>
+</head>
+<body>
+
+    
+    <div class="w3-bar w3-white">
+        <span class="w3-xlarge w3-text-purple"><b>E-Commerce</b></span>
+
+        <div class="w3-right">
+            <a href="webz.html" class="w3-bar-item w3-button w3-text-black">HOME</a>
+            <a href="#wala pay shop" class="w3-bar-item w3-button w3-text-black">SHOP</a>
+            <a href="#wala pay about" class="w3-bar-item w3-button w3-text-black">ABOUT</a>
+            <a href="#wapay contact" class="w3-bar-item w3-button w3-text-black">CONTACT</a>
+            <button class="w3-bar-item w3-button w3-gray w3-hover-dark-gray">Sign Up</button>
+            <button class="w3-bar-item w3-button w3-gray w3-hover-dark-gray">Sign In</button>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="content-container ">
+            <h2>Looking for something</h2>
+            <h1 class="headz"><b>Cheap?</b></h1>
+            <a href="#shop" class="shop-now w3-bar-item">Shop Now!</a>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <h2>Welcome to the E-Commerce Webpage!</h2>
+        <p>Ali namo mga suki barato pa kaayo mga second hand item og parcel na nanga anod sa dagat.</p>
+        <h2>About Us</h2>
+        <p>We are very legit, so real~</p>
+    </footer>
+
+</body>
+</html>
